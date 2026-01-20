@@ -3,6 +3,8 @@ from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydub import AudioSegment
 import speech_recognition as sr
+import static_ffmpeg
+static_ffmpeg.add_paths() # FFmpeg ကို automatic ရှာပြီး path ချိတ်ပေးပါတယ်
 
 app = FastAPI()
 

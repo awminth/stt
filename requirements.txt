@@ -3,3 +3,4 @@ uvicorn
 SpeechRecognition
 pydub
 python-multipart
+static-ffmpeg
